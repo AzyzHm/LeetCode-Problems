@@ -20,7 +20,7 @@ def main():
     l2 = ListNode(1, ListNode(3, ListNode(4)))
     result = mergeTwoLists(l1, l2)
     while result:
-        print(result.val)
+        print(result.val, end=" ")
         result = result.next
     
 
