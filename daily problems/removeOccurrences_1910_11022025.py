@@ -10,5 +10,5 @@ class Solution:
         
         return ''.join(stack)
     
-print(Solution().removeOccurrences("daabcbaabcbc","abc")) # dab
-print(Solution().removeOccurrences("axxxxyyyyb","xy")) # ab
+print(Solution().removeOccurrences("daabcbaabcbc","abc")) # "dab"
+print(Solution().removeOccurrences("axxxxyyyyb","xy")) # "ab"
